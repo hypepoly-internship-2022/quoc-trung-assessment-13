@@ -57,7 +57,8 @@ public class GameManager : MonoBehaviour
                 UpdateTimer(timeLeft);
             }
             else
-            { 
+            {
+                Loose();
                 timeLeft = 0;
                 timerOn = false;
             }
